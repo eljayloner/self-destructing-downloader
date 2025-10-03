@@ -9,9 +9,9 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-api_id = config('API_ID')
+api_id = config('123456')
 
-api_hash = config('API_HASH')
+api_hash = config('35886641ed1bfaa92e7ee30er9888')
 
 client = TelegramClient(
     'mahdiashtian',
